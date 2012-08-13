@@ -10,4 +10,11 @@ class User < ActiveRecord::Base
   attr_accessible :email, :password, :password_confirmation, :remember_me
   attr_accessible :lat, :lng, :name
   # attr_accessible :title, :body
+
+  acts_as_api
+  api_accessible :name_only do |template|
+    template.add :name
+    template.add :lng
+    template.add :lat
+  end
 end

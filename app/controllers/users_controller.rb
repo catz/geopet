@@ -7,7 +7,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @users }
+      format.json { render_for_api :name_only, :json => @users, :root => :users }
     end
   end
 
