@@ -3,6 +3,10 @@ class Api::V1::TokensController  < ApplicationController
   respond_to :json
   
   def create
+    require "pry"
+    require "pry-nav"
+    binding.pry
+    
     email = params[:email]
     password = params[:password]
     

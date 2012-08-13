@@ -36,6 +36,11 @@ end
 
 gem 'jquery-rails'
 
+group :development do
+  gem 'pry'
+  gem 'pry-nav'
+end
+
 group :test, :development do
   gem "rspec-rails"
 end
