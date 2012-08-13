@@ -6,11 +6,21 @@ gem 'thin', '~> 1.3.1',    :require => false
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+# database
+
 gem 'sqlite3'
 
+# authentication
+
 gem 'devise', '~> 2.1.0'
+
+# JSON and API
+
 gem 'json'
 gem 'acts_as_api'
+
+# views
+gem 'haml'
 
 # Gems used only for assets and not required
 # in production environments by default.

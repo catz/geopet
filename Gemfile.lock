@@ -53,6 +53,7 @@ GEM
     eventmachine (0.12.10)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    haml (3.1.7)
     hike (1.2.1)
     i18n (0.6.0)
     journey (1.0.4)
@@ -139,6 +140,7 @@ DEPENDENCIES
   acts_as_api
   coffee-rails (~> 3.2.1)
   devise (~> 2.1.0)
+  haml
   jquery-rails
   json
   rails (= 3.2.8)
